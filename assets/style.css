@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Gothic A1', sans-serif;
+    list-style-type: none;
+}
+header{
+
+    color: white;
+    width: 100%;
+}
+
+/*PRESENTATION*/
+.presentation h1{
+    font-size: 100px;
+
+    display: flex;
+    justify-content: center;
+}
+.presentation img{
+    width: 250px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    padding:1%
+}
+.lineaire-color {
+  background: linear-gradient(rgb(90, 90, 255), rgb(187, 0, 255));
+}
+
+/*NAVBAR*/
+.NavBar{
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    color: aqua; 
+}
+.NavBar p{
+    font-size: 40px; 
+    display: flex;
+    width: 70%;
+    justify-content: start;
+}
+.lienHeader{
+    display: flex;
+    justify-content: end;
+    gap: 5%;
+    width: 90%;
+    padding-right: 1%;
+    font-size: 30px; 
+}
+.lienHeader a {
+    color: aquamarine;
+}
+
+
+@media (max-width: 950px) {
+    .NavBar p{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+    .NavBar{
+        padding-left: 0%;
+        display: block;    
+    }
+    .lienHeader{
+        width: 100%;
+        justify-content: space-around;
+    } 
+}
+
+
+@media (max-width: 587px) {
+      h1{
+        font-size: 50px;
+    }
+    .NavBar p{
+        font-size: 30px;
+        height: 50px;
+    } 
+    .lienHeader{
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+}
+
+
+@media (max-width: 440px) {
+    .NavBar{
+        height: 200px;
+    }
+    .NavBar p{
+        font-size: 30px;
+        height: 70px;
+        width: 100%;
+    }
+    .lienHeader{
+        display: grid;
+    } 
+}
+
+
+/*MAIN*/
+h2 {
+    height: 70px;
+    font-size: 30px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.leFrontEnd p{
+    font-size: 25px;
+    display: flex;
+    width: 99%;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.paragrapheFrontEnd{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+#ordiCode{
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+
+.mesCompetences h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    height: 70px;
+
+}
+
+
+.mesCompetences p{
+margin-top: 15px;
+
+    display: flex;
+  justify-content: center;
+}
+
+
+.logoContainer{
+    display: grid;
+width: 100%;
+
+    gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+  margin-bottom: 40px;
+}
+.logo{
+   
+  
+
+    margin: auto;
+
+}
+
+
+.imageLogo{
+    transition: 1s ease;
+    height: 100px;
+  border-radius: 50%;
+
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+
+.imageLogo:hover{
+ -webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+}
+
+
+
+.portfolio p{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+}
+.lienPortfolio{
+display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 40px 25px;
+}
+.lienPortfolio img{
+  
+  border-radius: 10px;
+  object-fit: cover;
+
+
+    
+  }
+  .competence {
+   font-weight: bold;
+   margin-bottom: 10%;
+   
+  }
+  .contact ul{
+
+   height: 300px;
+   grid-template-columns: repeat(3, 1fr);
+  
+display: flex;
+  justify-content: center;
+  }
+
+  .contact ul li {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+  }
+.contact ul li i{
+    font-size: 30px;
+}
+
+  .description{
+    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  width: 75%;
+  float: right;
+  }
+  
+  .imagesFront{
+    align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+
+  padding-top: 30px;
+  }
+  .imageLien{
+    width: 25%;
+
+    object-fit: cover;
+  }
+   .button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+   }
+  
+  .lienGithub{
+    width: 510%;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+
+
+  }
+
