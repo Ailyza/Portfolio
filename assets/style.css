@@ -12,13 +12,13 @@ header{
 }
 
 /*PRESENTATION*/
-.presentation h1{
+h1{
     font-size: 100px;
 
     display: flex;
     justify-content: center;
 }
-.presentation img{
+header img{
     width: 250px;
     border-radius: 50%;
     display: flex;
@@ -30,7 +30,7 @@ header{
 }
 
 /*NAVBAR*/
-.NavBar{
+nav{
     background-color: black;
     justify-content: center;
     display: flex;
@@ -39,37 +39,38 @@ header{
     align-items: center;
     color: aqua; 
 }
-.NavBar p{
+nav p{
     font-size: 40px; 
     display: flex;
     width: 70%;
     justify-content: start;
 }
-.lienHeader{
+nav ul{
     display: flex;
     justify-content: end;
     gap: 5%;
     width: 90%;
+    margin: auto;
     padding-right: 1%;
     font-size: 30px; 
 }
-.lienHeader a {
+nav ul li a {
     color: aquamarine;
 }
 
 
 @media (max-width: 950px) {
-    .NavBar p{
+    nav p{
         display: flex;
         justify-content: center;
         text-align: center;
         margin: auto;
     }
-    .NavBar{
+    nav{
         padding-left: 0%;
         display: block;    
     }
-    .lienHeader{
+  nav ul li a{
         width: 100%;
         justify-content: space-around;
     } 
@@ -80,11 +81,11 @@ header{
       h1{
         font-size: 50px;
     }
-    .NavBar p{
+nav p{
         font-size: 30px;
         height: 50px;
     } 
-    .lienHeader{
+nav ul li a{
         font-size: 25px;
         padding-bottom: 10px;
     }
@@ -92,18 +93,30 @@ header{
 
 
 @media (max-width: 440px) {
-    .NavBar{
+  nav ul{
+    display: block;
+  }
+    nav{
         height: 200px;
     }
-    .NavBar p{
+    nav p{
         font-size: 30px;
         height: 70px;
         width: 100%;
     }
-    .lienHeader{
+nav ul li a{
         display: grid;
     } 
 }
+
+
+
+
+
+
+
+
+
 
 
 /*MAIN*/
@@ -123,12 +136,9 @@ h2 {
     margin: auto;
     text-align: center;
     align-items: center;
+    
 }
-.paragrapheFrontEnd{
-    display: flex;
-    align-items: center;
-    justify-content: center;    
-}
+
 #ordiCode{
     width: 50%;
     height: 300px;
@@ -136,18 +146,21 @@ h2 {
     border-radius: 25px;
 }
 
-
-.mesCompetences h3{
+h3{
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 25px;
     height: 70px;
+    background-color: gray;
+  width: 58%;
+  border-radius: 77px;
+  margin: auto;
 
 }
 
 
-.mesCompetences p{
+figcaption {
 margin-top: 15px;
 
     display: flex;
@@ -159,12 +172,12 @@ margin-top: 15px;
     display: grid;
 width: 100%;
 
-    gap: 50px;
+    gap: 30px;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 30px;
   margin-bottom: 40px;
 }
-.logo{
+figure{
    
   
 
@@ -173,7 +186,7 @@ width: 100%;
 }
 
 
-.imageLogo{
+figure img{
     transition: 1s ease;
     height: 100px;
   border-radius: 50%;
@@ -181,9 +194,6 @@ width: 100%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 
 }
-
-
-
 
 .imageLogo:hover{
  -webkit-transform: scale(1.2);
@@ -194,8 +204,34 @@ transition: 1s ease;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+.projet{
+
+    display: flex;
+
+}
+
+
+.portfolio{
+    height: 5%;
+    background-color: palevioletred;
+}
+
+
+
 .portfolio p{
-    width: 90%;
+    width: 60%;
     margin: auto;
     display: flex;
     font-size: x-large;
@@ -206,73 +242,63 @@ display: flex;
   flex-direction: column;
   gap: 60px;
   padding: 40px 25px;
+ 
 }
 .lienPortfolio img{
-  
+  width: 20%;
+  height: 90%;
   border-radius: 10px;
-  object-fit: cover;
-
 
     
+  }
+  .projet p {
+    width: 700px;
+    
+
+  }
+  .projet b{
+    display: block;
   }
   .competence {
    font-weight: bold;
    margin-bottom: 10%;
-   
   }
-  .contact ul{
+button{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+   
+   }
+  
 
-   height: 300px;
+
+@media (max-width: 950px) {
+    .lienPortfolio img{
+ 
+    
+  }
+}
+
+
+
+
+
+
+
+
+  
+footer ul{
+
+   height: 100px;
    grid-template-columns: repeat(3, 1fr);
   
 display: flex;
   justify-content: center;
   }
 
-  .contact ul li {
+footer ul li {
     display: flex;
     width: 20%;
     justify-content: center;
+     font-size: 30px;
   }
-.contact ul li i{
-    font-size: 30px;
-}
-
-  .description{
-    align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  text-align: justify;
-  width: 75%;
-  float: right;
-  }
-  
-  .imagesFront{
-    align-items: center;
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-
-  padding-top: 30px;
-  }
-  .imageLien{
-    width: 25%;
-
-    object-fit: cover;
-  }
-   .button{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-   
-   }
-  
-  .lienGithub{
-    width: 510%;
-    height: 50px;
-    border-radius: 50%;
-    font-size: 30px;
-
-
-  }
-

@@ -1,0 +1,38 @@
+[
+	{
+		"nom": "Booki",
+		"description": "Booki est un projet que j'ai du réalisé au cours de ma formation. J'avais pour mission de créer un site conforme à la maquette Figma. Le site web devait contenir une page d’accueil optimisée pour tout type d'écran (ordinateur, tablette, smartphone)",
+		"image": "assets/images/Booki.png",
+		"competence": "HTML/CSS"
+	},
+	{
+		"nom": "Oh my food",
+		"description": "OhMyFood est un projet que j'ai réaliser en mobile first. Il comprend une page d'acceuil avec un loading, quatre pages de menus de restaurants. Différente animation y sont présente afin que le site soit plus intératif",
+		"image": "assets/images/OhMyFood.png",
+		"competence": "HTML/CSS"
+	},
+	{
+		"nom": "Kasa",
+		"description": "Refonte d'un site de location d'appartements crées avec React. Qui nous a permi d'intégrer des composants et routes nécessaires. Les animations CSS des menus déroulants rend la page plus interactif",
+		"image": "assets/images/Kasa.png",
+		"competence": "React/CSS"
+	},
+	{
+		"nom": "Sophie Bluel",
+		"description": "Dans ce projet, je devais présenter les travaux de l'architecte d'intérieur Sophie Bluel. Le site devait contenir un filtre, ainsi qu'une page de connection. Ensuite, j'ai du créer les fonctionnalités de tri par filtre, d'ajout et de suppression des travaux de cette galerie. J'ai aussi créé un système de log-in depuis une page de connexion ",
+		"image": "assets/images/Sohie Bluel.png",
+		"competence": "JavaScript/HTML/CSS"
+	},
+	{
+		"nom": "Print It",
+		"description": "J'avais pour mission de créer un carrousel interactif en JavaScript pour le site web de l'imprimerie Print It. Et intégration des flèches avec bullet-point.",
+		"image": "assets/images/Print-it.png",
+		"competence": "HTML/CSS/JavaScript"
+	},
+        {
+		"nom": "724Events",
+		"description": "Le site conteant divers problème, j'avais pour mission de debuggé ainsi qu'a tester le site web de l'agence. J'ai également rédiger un cahier de recette dans lequel j'ai souligné tous les bugs que j'ai pu constater et corriger",
+		"image": "assets/images/724Events.png",
+		"competence": "React/HTML/CSS"
+	}
+]
