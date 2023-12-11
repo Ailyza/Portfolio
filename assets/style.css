@@ -178,29 +178,23 @@ figure img {
 
 .projet {
 	display: flex;
+    font-size: x-large;
 }
-.column {
-	flex: 1;
-	border: 1px;
-	padding: 20px;
+@media (max-width: 587px) {
+    .projet {
+        flex-direction: column;
+    }
 }
+
+
 
 .line {
 	border-bottom: 1px;
 	margin-bottom: 20px;
 }
 
-.first-section {
-	flex: 1;
-	width: 35%;
-	padding: 20px;
-}
 
-.second-section {
-	flex: 2;
-	width: 65%;
-	padding: 20px;
-}
+
 .portfolio {
 	height: 5%;
 	background-color: palevioletred;
@@ -219,13 +213,17 @@ figure img {
 	gap: 60px;
 	padding: 40px 25px;
 }
+
 .lienPortfolio img {
-	width: 20%;
-	height: 90%;
+
+	height: 70px;
 	border-radius: 10px;
+     width: 200px;
+	padding: 20px;
 }
 .projet p {
-	width: 700px;
+	width: 100%;
+
 }
 .projet b {
 	display: block;
@@ -234,16 +232,25 @@ figure img {
 	font-weight: bold;
 	margin-bottom: 10%;
 }
-/*button {
-	width: 10%;
+button {
+	width: 100%;
+    margin: 1%;
+    height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
 	display: flex;
-	justify-content: center;
-}*/
-
-@media (max-width: 950px) {
-	.lienPortfolio img {
-	}
+    justify-content: center;
+        align-items: center;
+        border-color: aliceblue;
+background-color: rgb(208, 251, 252);
+	
 }
+button a {
+    font-size: x-large;
+    color: rgb(19, 95, 160);
+    font-weight: bolder;
+}
+
 
 footer ul {
 	height: 100px;
@@ -258,4 +265,11 @@ footer ul li {
 	width: 20%;
 	justify-content: center;
 	font-size: 30px;
+}
+
+footer .fa-regular {
+	display: flex;
+align-items: center;
+	justify-content: center;
+margin-bottom: 1%;
 }
