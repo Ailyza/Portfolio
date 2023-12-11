@@ -6,7 +6,7 @@
 	list-style-type: none;
 }
 header {
-	background-color: rgb(112, 112, 218);
+	background-color: rgb(120, 156, 253);
 	color: white;
 	width: 100%;
 }
@@ -116,11 +116,16 @@ h2 {
 	font-size: 25px;
 	display: flex;
 	width: 99%;
-	justify-content: center;
+
 	margin: auto;
-	text-align: center;
+	
 	align-items: center;
 }
+.leFrontEnd b {
+	font-size: 25px;
+	
+}
+
 
 #ordiCode {
 	width: 50%;
@@ -197,7 +202,8 @@ figure img {
 
 .portfolio {
 	height: 5%;
-	background-color: palevioletred;
+	background-color: black;
+	color: aqua ;
 }
 
 .portfolio p {
@@ -233,7 +239,6 @@ figure img {
 	margin-bottom: 10%;
 }
 button {
-	width: 100%;
     margin: 1%;
     height: 60px;
   border-radius: 50%;
@@ -247,7 +252,7 @@ background-color: rgb(208, 251, 252);
 }
 button a {
     font-size: x-large;
-    color: rgb(19, 95, 160);
+    color: white;
     font-weight: bolder;
 }
 
